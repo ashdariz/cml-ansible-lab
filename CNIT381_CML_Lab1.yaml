@@ -1,0 +1,361 @@
+annotations: []
+smart_annotations: []
+nodes:
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 3410 bytes\n\
+          !\n! Last configuration change at 19:01:06 UTC Fri Nov 14 2025\n!\nversion\
+          \ 17.16\nservice timestamps debug datetime msec\nservice timestamps log\
+          \ datetime msec\n!\nhostname R1\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\nip domain name lab.local\nip cef\nlogin on-success log\nno ipv6\
+          \ cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184643\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184643\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184643\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184643\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 33301E17 0D323531\
+          \ 31303931 39343835\n  365A170D 33353131 30393139 34383536 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343330 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 8B9C6E3B 31A7D07E ABC533FA A18C5116 0CB2318F\
+          \ 7F2FB8C4 10DE4D24\n  20EE7961 7C89A2DB 61CA5435 8C384FA4 88119ADA 3B93B086\
+          \ 7A027FB9 968DB402\n  17252258 87B1E0F3 AD6B6C05 F1BE54C1 BEDA873F 81F2E4BD\
+          \ 1D864980 0F5C88A7\n  54DF2011 440306E1 190ED223 1C349357 E4F73AB0 35170476\
+          \ 920CA96D 40DC2DE8\n  2D98CBC5 CC921BA0 521F6FB6 78AC026A 9644B5C1 EA1C1F88\
+          \ D0490E74 83A3F7C4\n  8DED4DD6 933560CE C54214FC F5B0156B 2F9AE1F4 3959D8DD\
+          \ 45A50A7C AFE88C1B\n  ECD9A120 6A0F7E7A BBB392F3 6239078F AC91768C 43029A0C\
+          \ AD8170B7 C47BADD8\n  878F2A31 B6CFCF94 431DD8D9 3AC135E5 5FF55D8C 6CA409E1\
+          \ D5DE08B4 0F3F81B3\n  93023DAD 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 83F037D9 06F6F51A\n  0E96AB3A 735A4A80 E9F292A3 301F0603 551D2304 18301680\
+          \ 1483F037 D906F6F5\n  1A0E96AB 3A735A4A 80E9F292 A3300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 01001956 778ECEE4\
+          \ 751F5DDD 44221B98\n  D819A491 90C5E983 65255E57 DEA617B4 F725E481 0C695640\
+          \ B2607664 33B4D1D5\n  D116C32C 8A9F4530 51568901 26383933 D6634166 F6EB98E1\
+          \ 7EF0D822 3543A639\n  F1FFD286 42F5DFA4 44DAF9A5 357B9004 D63E550C 1A7A4233\
+          \ 0602BDC3 06271D39\n  8A800314 74C98841 CE837C3D 427E22C7 A2A5E628 05807B44\
+          \ CA5271DA 56838372\n  7E02D559 7B311529 F6F61BD2 F1C98E99 9E983CD0 E054C0B4\
+          \ 18B5DEDE 5E5D6D09\n  97721002 660A733C E7373794 27389BE7 11B6272B 4E0053A5\
+          \ 3819B24C 46614702\n  4386858D 538F1451 2C8488DB CD02FE11 82D29A5E 234AD9F8\
+          \ 53EE01E1 67B32BC4\n  EFAF96E1 128BF9BC 5A4C5514 6087C040 A177\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79983\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\n!\nenable secret 9 $9$N0JxYLjxUUqzTU$XEPYZ3lgw3e.SSXA43ButAOS5.p3wMm0SlFXYit65ko\n\
+          !\nusername cisco privilege 15 secret 9 $9$Nq5Yagk.t1QZ3.$YNduTCCQOzsBlbPu0KXI3xAB6Ya4Jb1pEs3JdiBRRgg\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface\
+          \ Ethernet0/0\n description Connected to Switch\n ip address 192.168.100.100\
+          \ 255.255.255.0\n!\ninterface Ethernet0/1\n no ip address\n shutdown\n!\n\
+          interface Ethernet0/2\n no ip address\n shutdown\n!\ninterface Ethernet0/3\n\
+          \ no ip address\n shutdown\n!\nip forward-protocol nd\nip forward-protocol\
+          \ udp\n!\n!\nip http server\nip http secure-server\nip ssh bulk-mode 131072\n\
+          no logging btrace\n!\n!\n!\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout\
+          \ 0 0\n logging synchronous\nline aux 0\nline vty 0 4\n exec-timeout 0 0\n\
+          \ login local\n transport input ssh\n!\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n0
+    image_definition: null
+    label: Router1
+    node_definition: iol-xe
+    parameters: {}
+    priority: null
+    pyats:
+      username: null
+      password: null
+      enable_password: null
+    ram: null
+    tags: []
+    x: 0
+    y: 0
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration:
+      - name: ios_config.txt
+        content: "Building configuration...\n\nCurrent configuration : 3356 bytes\n\
+          !\n! Last configuration change at 19:01:06 UTC Fri Nov 14 2025\n!\nversion\
+          \ 17.16\nservice timestamps debug datetime msec\nservice timestamps log\
+          \ datetime msec\n!\nhostname R2\n!\nboot-start-marker\nboot-end-marker\n\
+          !\n!\nno logging console\nno aaa new-model\n!\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\nip domain name lab.local\nip cef\nlogin on-success log\nno ipv6\
+          \ cef\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ncrypto pki trustpoint TP-self-signed-131184644\n\
+          \ enrollment selfsigned\n subject-name cn=IOS-Self-Signed-Certificate-131184644\n\
+          \ revocation-check none\n rsakeypair TP-self-signed-131184644\n hash sha512\n\
+          !\n!\ncrypto pki certificate chain TP-self-signed-131184644\n certificate\
+          \ self-signed 01\n  3082032E 30820216 A0030201 02020101 300D0609 2A864886\
+          \ F70D0101 0D050030\n  30312E30 2C060355 04030C25 494F532D 53656C66 2D536967\
+          \ 6E65642D 43657274\n  69666963 6174652D 31333131 38343634 34301E17 0D323531\
+          \ 31303931 39343835\n  395A170D 33353131 30393139 34383539 5A303031 2E302C06\
+          \ 03550403 0C25494F\n  532D5365 6C662D53 69676E65 642D4365 72746966 69636174\
+          \ 652D3133 31313834\n  36343430 82012230 0D06092A 864886F7 0D010101 05000382\
+          \ 010F0030 82010A02\n  82010100 B986820E FD57B134 3AF23599 70574C9C 617E1E06\
+          \ AC46CBF6 9462A4A6\n  DF19340A F4BA0E44 60E7BB5E B23CDDDF D31F7017 87EA1C95\
+          \ DE4BA161 EE80341D\n  E7AAC6DC AB641B13 58577F60 7ED85C8A 14CDFCFC BDD3DA84\
+          \ 8AADEAB3 7B9E90B0\n  AF954160 F0BE486F 8E002ADB EAD6518E 6EBA00B3 027D8AC5\
+          \ 61927620 2F58864D\n  5B191AC3 1B5E3F37 9641A919 9A8DE5EA F1992208 638539A9\
+          \ F3CF6B5F F6F18138\n  251FB499 9083EC0C ED98F0C4 2DAEB56F 765C4995 2ABD2419\
+          \ E9787970 E642FD14\n  DF693B1E 861C32E2 3E72E469 50D12FBC A1328CFD 7CBA7A85\
+          \ 9CD9757A 5FCAD5AF\n  E5098FD6 9A3F4B53 C0EAF118 DCDD0493 36978E0B E5EA8CD6\
+          \ 38D90594 12C81E10\n  F46E2D07 02030100 01A35330 51301D06 03551D0E 04160414\
+          \ 285447D9 6AD760E1\n  706925AF FF05B52E 2C725FA9 301F0603 551D2304 18301680\
+          \ 14285447 D96AD760\n  E1706925 AFFF05B5 2E2C725F A9300F06 03551D13 0101FF04\
+          \ 05300301 01FF300D\n  06092A86 4886F70D 01010D05 00038201 01003278 A7CA106F\
+          \ C3AB4EA8 78C848D1\n  3B54B1AF ED1D1ED2 EBA56426 E838EE12 85E2F1C9 4C4B1052\
+          \ 5015F476 AC475562\n  2D5B303C B74186B9 C833CD3E 9C6E88DC 44E6F47F 9D474568\
+          \ 7D9F604E 8B3E4ED3\n  E3EFABDC 724A9489 98B240DB 0F21D8C5 98480A9D 684B74F3\
+          \ 9A5A1AC7 2C37ABFF\n  407E9D3C AAB6FF3D 528D42EA E7D4CFF4 3790DB6E 60F005EB\
+          \ D0CA2C00 F01BF90C\n  D7384CCF 71AF5F76 221CF635 BB6E9103 C13CBE4B 5749C1E1\
+          \ 2183ABFD B4E94055\n  6095869D 8C62D102 9834BA75 CF7D5A39 4A94FDA5 2858575B\
+          \ F64A3EF5 D292DC5C\n  DFC0270F E73CC5FF 9D66BA68 F2AC94FF FDAFDE22 2D4F4C4C\
+          \ C4AB64D7 D8467AF7\n  B364FA06 7DB39F7F 32167EEA E8BF1C4D 49B4\n  \tquit\n\
+          !\n!\nmemory free low-watermark processor 79983\n!\n!\nspanning-tree mode\
+          \ rapid-pvst\n!\nenable secret 9 $9$N25AMgaHD7pJ4U$KBV/0wr0SrOQ53xjgv6cP8lwE3/yc3fsR5MXxUEfYkU\n\
+          !\nusername cisco privilege 15 password 0 cisco\n!\n!\n!\n!\n!\n!\n!\n!\n\
+          !\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\n!\ninterface Ethernet0/0\n description\
+          \ Connected to Switch\n ip address 192.168.100.101 255.255.255.0\n!\ninterface\
+          \ Ethernet0/1\n no ip address\n shutdown\n!\ninterface Ethernet0/2\n no\
+          \ ip address\n shutdown\n!\ninterface Ethernet0/3\n no ip address\n shutdown\n\
+          !\nip forward-protocol nd\nip forward-protocol udp\n!\n!\nip http server\n\
+          ip http secure-server\nip ssh bulk-mode 131072\nno logging btrace\n!\n!\n\
+          !\ncontrol-plane\n!\n!\n!\nline con 0\n exec-timeout 0 0\n logging synchronous\n\
+          line aux 0\nline vty 0 4\n exec-timeout 0 0\n login local\n transport input\
+          \ ssh\n!\n!\n!\n!\nend"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n1
+    image_definition: null
+    label: Router2
+    node_definition: iol-xe
+    parameters: {}
+    priority: null
+    pyats:
+      username: null
+      password: null
+      enable_password: null
+    ram: null
+    tags: []
+    x: 200
+    y: 0
+    interfaces:
+      - id: i0
+        label: Loopback0
+        mac_address: null
+        type: loopback
+      - id: i1
+        label: Ethernet0/0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i2
+        label: Ethernet0/1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i3
+        label: Ethernet0/2
+        mac_address: null
+        type: physical
+        slot: 2
+      - id: i4
+        label: Ethernet0/3
+        mac_address: null
+        type: physical
+        slot: 3
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n2
+    image_definition: null
+    label: Switch1
+    node_definition: unmanaged_switch
+    parameters: {}
+    priority: null
+    pyats:
+      username: null
+      password: null
+      enable_password: null
+    ram: null
+    tags: []
+    x: 100
+    y: 150
+    interfaces:
+      - id: i0
+        label: port0
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i1
+        label: port1
+        mac_address: null
+        type: physical
+        slot: 1
+      - id: i2
+        label: port2
+        mac_address: null
+        type: physical
+        slot: 2
+  - boot_disk_size: null
+    configuration:
+      - name: user-data
+        content: |-
+          #cloud-config
+          hostname: ubuntu
+          manage_etc_hosts: True
+
+          system_info:
+            default_user:
+              name: cisco
+
+          password: cisco
+          chpasswd: { expire: False }
+          ssh_pwauth: True
+
+          # Network configuration
+          write_files:
+            - path: /etc/netplan/01-netcfg.yaml
+              content: |
+                network:
+                  version: 2
+                  renderer: networkd
+                  ethernets:
+                    ens2:
+                      addresses: [192.168.100.10/24]
+                    ens3:
+                      dhcp4: yes
+              permissions: '0644'
+
+          # Run commands after boot
+          runcmd:
+            - netplan generate
+            - netplan apply
+            - sleep 10  # Wait for network to stabilize
+            - apt update
+            - apt install -y ansible sshpass python3-paramiko
+            - echo "Setup complete - Ansible installed" > /home/cisco/setup-complete.txt
+
+          final_message: "Ubuntu server ready!"
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n3
+    image_definition: null
+    label: Ubuntu-Server
+    node_definition: ubuntu
+    parameters: {}
+    priority: null
+    pyats:
+      username: null
+      password: null
+      enable_password: null
+    ram: null
+    tags: []
+    x: 80
+    y: 320
+    interfaces:
+      - id: i0
+        label: ens2
+        mac_address: null
+        type: physical
+        slot: 0
+      - id: i1
+        label: ens3
+        mac_address: null
+        type: physical
+        slot: 1
+  - boot_disk_size: null
+    configuration: []
+    cpu_limit: null
+    cpus: null
+    data_volume: null
+    hide_links: false
+    id: n4
+    image_definition: null
+    label: ExtConn
+    node_definition: external_connector
+    parameters: {}
+    priority: null
+    pyats:
+      username: null
+      password: null
+      enable_password: null
+    ram: null
+    tags: []
+    x: 320
+    y: 320
+    interfaces:
+      - id: i0
+        label: port
+        mac_address: null
+        type: physical
+        slot: 0
+links:
+  - id: l0
+    n1: n0
+    n2: n2
+    i1: i1
+    i2: i0
+    conditioning: {}
+    label: Router1-Ethernet0/0<->Switch1-port0
+  - id: l1
+    n1: n1
+    n2: n2
+    i1: i1
+    i2: i1
+    conditioning: {}
+    label: Router2-Ethernet0/0<->Switch1-port1
+  - id: l2
+    n1: n2
+    n2: n3
+    i1: i2
+    i2: i0
+    conditioning: {}
+    label: Switch1-port2<->Ubuntu-Server-ens2
+  - id: l3
+    n1: n3
+    n2: n4
+    i1: i1
+    i2: i0
+    conditioning: {}
+    label: Ubuntu-Server-ens3<->ExtConn-port
+lab:
+  description: Network topology with 2 IOL routers, unmanaged switch, Ubuntu server,
+    and external connectivity
+  notes: ''
+  title: CNIT381 CML Lab1
+  node_staging:
+    enabled: false
+    start_remaining: true
+    abort_on_failure: false
+  version: 0.3.1
